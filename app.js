@@ -31,7 +31,7 @@ function calculate() {
             // console.log(name1, name2)
             let lovepercent = parseInt(Math.random() * 100)
 
-            output.innerText = name1 + " & " + name2 + "  are  99.4% in love"
+            output.innerText = name1 + " & " + name2 + " " + lovepercent + "% in love"
             yourName.value = ""
             theirName.value = ""
         }
